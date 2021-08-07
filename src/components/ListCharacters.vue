@@ -35,4 +35,16 @@ export default {
         gap: 3rem;
         margin: 3rem 0;
     }
+
+    @media (max-width: 768px) {
+        .characters {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 478px) {
+        .characters {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 </style>

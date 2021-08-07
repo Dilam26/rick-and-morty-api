@@ -1,6 +1,6 @@
 <template>
  <div class="container">
-  <h1>Rick and Morty </h1>
+  <h1 class="titulo">Rick and Morty </h1>
   <FilterByStatus />
   <filter-by-name />
   <ListCharacters />
@@ -40,7 +40,7 @@ export default {
     color: var(--text-white);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  h1 {
+  .titulo {
     margin-bottom: 3rem;
     text-align: center;
   }
